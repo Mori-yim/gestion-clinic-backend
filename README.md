@@ -1,5 +1,5 @@
 # gestion-clinic-backend
-# 🏥 ClinicCam Backend — API REST Spring Boot
+#  ClinicCam Backend — API REST Spring Boot
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?style=flat&logo=spring)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-17-007396?style=flat&logo=java)](https://openjdk.org/)
@@ -11,7 +11,7 @@ API REST complète pour la plateforme **ClinicCam** — gestion de clinique méd
 
 ---
 
-## 📋 Table des Matières
+##  Table des Matières
 
 - [À propos](#-à-propos)
 - [Technologies](#-technologies)
@@ -26,7 +26,7 @@ API REST complète pour la plateforme **ClinicCam** — gestion de clinique méd
 
 ---
 
-## 📖 À propos
+##  À propos
 
 ClinicCam Backend est une API REST médicale qui gère :
 - **3 rôles distincts** : `PATIENT`, `MEDECIN`, `ADMIN` avec redirections différentes
@@ -40,7 +40,7 @@ ClinicCam Backend est une API REST médicale qui gère :
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | Technologie | Version | Usage |
 |------------|---------|-------|
@@ -54,7 +54,7 @@ ClinicCam Backend est une API REST médicale qui gère :
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 src/main/java/com/cliniccam/
@@ -86,14 +86,14 @@ src/main/java/com/cliniccam/
 
 ---
 
-## ✅ Prérequis
+##  Prérequis
 
 - Java 17+, Maven 3.6+
 - PostgreSQL local OU compte [Supabase](https://supabase.com)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Mori-yim/cliniccam-backend.git
@@ -110,7 +110,7 @@ mvn spring-boot:run
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ```properties
 server.port=8081
@@ -127,7 +127,7 @@ cors.allowed-origins=${CORS_ORIGINS:http://localhost:5174}
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Base URL : `http://localhost:8081/api/v1`
 
@@ -187,7 +187,7 @@ GET /api/v1/admin/patients?page=1&size=10&search=kamga
 
 ---
 
-## 🗄️ Modèle de données
+##  Modèle de données
 
 ### Entités
 
@@ -212,13 +212,13 @@ Cardiologie, Pédiatrie, Médecine Générale, Dermatologie, Gynécologie, Ophta
 
 | Rôle | Email | Mot de passe |
 |------|-------|-------------|
-| 👔 ADMIN | admin@cliniccam.cm | Admin123! |
-| 🩺 MEDECIN | dr.mbarga@cliniccam.cm | Medecin123! |
-| 👤 PATIENT | alain.talla@gmail.com | Patient123! |
+|  ADMIN | admin@cliniccam.cm | Admin123! |
+|  MEDECIN | dr.mbarga@cliniccam.cm | Medecin123! |
+|  PATIENT | alain.talla@gmail.com | Patient123! |
 
 ---
 
-## ☁️ Déploiement Railway
+##  Déploiement Railway
 
 ```bash
 # Variables d'environnement Railway :
@@ -231,8 +231,8 @@ CORS_ORIGINS=https://cliniccam.vercel.app
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Mori (YIMFACK MORINO)**
-- 🎓 Licence DAP — Université de Douala
-- 🐙 GitHub : [@Mori-yim](https://github.com/Mori-yim)
+-  Licence DAP — Université de Douala
+-  GitHub : [@Mori-yim](https://github.com/Mori-yim)
