@@ -40,9 +40,9 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- ================================================
+        <!--
              SPRING SECURITY : Auth + RBAC
-             ================================================ -->
+              -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -65,9 +65,9 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- ================================================
+        <!--
              JWT : génération et validation des tokens
-             ================================================ -->
+              -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
@@ -87,18 +87,18 @@
         </dependency>
 
 
-        <!-- ================================================
+        <!--
              LOMBOK : réduction du code boilerplate
-             ================================================ -->
+              -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!-- ================================================
+        <!--
              DEVTOOLS : rechargement auto en développement
-             ================================================ -->
+              -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -111,9 +111,9 @@
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- ================================================
+        <!--
              TESTS
-             ================================================ -->
+              -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
