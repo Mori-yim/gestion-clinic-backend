@@ -15,12 +15,9 @@ import java.util.Map;
 import java.util.function.Function;
 
 /**
- * ================================================================
  * SERVICE JWT — CLINICCAM
- * ================================================================
  * Génère et valide les tokens JWT pour l'authentification.
  * Identique à BusCam — réutilisable dans tous vos projets.
- * ================================================================
  */
 @Service
 public class JwtService {
