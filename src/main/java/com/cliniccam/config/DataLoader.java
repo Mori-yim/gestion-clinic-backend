@@ -14,7 +14,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/**
+/*
  * DATA LOADER — Données de démonstration ClinicCam
  * Crée des données réalistes pour impressionner lors d'une démo :
  *   - 1 admin, 6 médecins (spécialités variées), 5 patients
@@ -255,7 +255,7 @@ public class DataLoader {
         };
     }
 
-    /** Helper : crée et sauvegarde un RDV rapidement */
+    /* Helper : crée et sauvegarde un RDV rapidement */
     private void sauvegarderRdv(
             RendezVousRepository repo,
             User patient, User medecin,
