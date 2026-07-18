@@ -15,13 +15,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 /**
- * ================================================================
  * DATA LOADER — Données de démonstration ClinicCam
- * ================================================================
  * Crée des données réalistes pour impressionner lors d'une démo :
  *   - 1 admin, 6 médecins (spécialités variées), 5 patients
  *   - ~20 rendez-vous avec statuts variés (pour les graphiques)
- * ================================================================
  */
 @Configuration
 @RequiredArgsConstructor
@@ -42,7 +39,7 @@ public class DataLoader {
 
             log.info(" Chargement des données de démonstration ClinicCam...");
 
-            // ── ADMIN ─────────────────────────────────────────────
+            // ── ADMIN 
             User admin = userRepository.save(User.builder()
                     .firstName("Directeur").lastName("Clinique")
                     .email("admin@cliniccam.cm")
@@ -50,7 +47,7 @@ public class DataLoader {
                     .phone("+237690000001").role(User.Role.ADMIN)
                     .build());
 
-            // ── MÉDECINS ──────────────────────────────────────────
+            // ── MÉDECINS 
             User cardio = userRepository.save(User.builder()
                     .firstName("Pierre").lastName("Mbarga")
                     .email("dr.mbarga@cliniccam.cm")
@@ -123,7 +120,7 @@ public class DataLoader {
                     .genre("F").dateNaissance(LocalDate.of(1980, 12, 30))
                     .build());
 
-            // ── PATIENTS ──────────────────────────────────────────
+            // ── PATIENTS 
             User patient1 = userRepository.save(User.builder()
                     .firstName("Alain").lastName("Talla")
                     .email("alain.talla@gmail.com")
