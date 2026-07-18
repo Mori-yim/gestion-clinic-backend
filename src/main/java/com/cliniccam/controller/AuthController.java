@@ -58,7 +58,6 @@ public class AuthController {
 
 /**
  * CONTROLLER MÉDECINS
- * ================================================================
  */
 @RestController
 @RequestMapping("/api/v1/medecins")
@@ -221,9 +220,7 @@ class RendezVousController {
 
 
 /**
- * ================================================================
  * CONTROLLER ADMIN & DASHBOARD
- * ================================================================
  */
 @RestController
 @RequestMapping("/api/v1")
