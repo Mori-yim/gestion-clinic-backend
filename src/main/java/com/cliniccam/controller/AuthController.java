@@ -20,7 +20,6 @@ import java.util.List;
 
 /**
  * CONTROLLER AUTHENTIFICATION
- * ================================================================
  */
 @RestController
 @RequestMapping("/api/v1/auth")
@@ -58,7 +57,6 @@ public class AuthController {
 
 
 /**
- * ================================================================
  * CONTROLLER MÉDECINS
  * ================================================================
  */
