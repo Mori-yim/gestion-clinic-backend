@@ -161,7 +161,7 @@ public class DataLoader {
                     .genre("M").dateNaissance(LocalDate.of(1985, 11, 20))
                     .build());
 
-            // ── RENDEZ-VOUS (données pour les graphiques) ─────────
+            //  RENDEZ-VOUS (données pour les graphiques) 
             LocalDateTime base = LocalDateTime.now();
 
             // RDV passés TERMINÉS (pour les stats de revenu)
@@ -244,8 +244,6 @@ public class DataLoader {
                     null, null);
 
             log.info("""
-                    
-                    ================================================
                     🏥 CLINICCAM — Données de démo chargées !
                     
                     👔 ADMIN   : admin@cliniccam.cm / Admin123!
