@@ -6,7 +6,6 @@ import com.cliniccam.service.AuthService;
 import com.cliniccam.service.DashboardService;
 import com.cliniccam.service.MedecinService;
 import com.cliniccam.service.RendezVousService;
-//import com.cliniccam.service.DashboardService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -20,7 +19,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 /**
- * ================================================================
  * CONTROLLER AUTHENTIFICATION
  * ================================================================
  */
