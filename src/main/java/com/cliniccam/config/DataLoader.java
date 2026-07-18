@@ -244,13 +244,13 @@ public class DataLoader {
                     null, null);
 
             log.info("""
-                    🏥 CLINICCAM — Données de démo chargées !
+                     CLINICCAM — Données de démo chargées !
                     
                     👔 ADMIN   : admin@cliniccam.cm / Admin123!
                     🩺 MÉDECIN : dr.mbarga@cliniccam.cm / Medecin123!
                     👤 PATIENT : alain.talla@gmail.com / Patient123!
                     
-                    📊 6 médecins | 5 patients | 15 rendez-vous
+                     6 médecins | 5 patients | 15 rendez-vous
                     ================================================
                     """);
         };
