@@ -142,9 +142,7 @@ class MedecinController {
 
 
 /**
- * ================================================================
  * CONTROLLER RENDEZ-VOUS
- * ================================================================
  */
 @RestController
 @RequestMapping("/api/v1/rendez-vous")
