@@ -251,7 +251,6 @@ public class DataLoader {
                     👤 PATIENT : alain.talla@gmail.com / Patient123!
                     
                      6 médecins | 5 patients | 15 rendez-vous
-                    ================================================
                     """);
         };
     }
